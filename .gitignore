@@ -1,0 +1,21 @@
+# Build / tool output
+/.build
+/.swiftpm
+/.bsp
+/xtool
+/dist
+DerivedData/
+*.ipa
+*.mobileprovision
+*.p12
+*.cer
+
+# Personal signing & secrets (never commit)
+/apple-signing
+*.key
+*.csr
+/.netrc
+
+# Editor / OS
+.DS_Store
+xcuserdata/
